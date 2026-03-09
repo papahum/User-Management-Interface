@@ -3,13 +3,10 @@
 A modern **User Management Interface** built using **Next.js, TypeScript, and Tailwind CSS**.
 This project allows users to add, search, and sort user records in a clean and responsive dashboard interface.
 
-## 🚀 Live Demo
-
-https://your-vercel-link.vercel.app
 
 ## 📂 GitHub Repository
 
-https://github.com/yourusername/user-management
+[https://github.com/yourusername/user-management](https://github.com/papahum/User-Management-Interface)
 
 ---
 
