@@ -1,139 +1,36 @@
-# User Management Dashboard
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-A modern **User Management Interface** built using **Next.js, TypeScript, and Tailwind CSS**.
-This project allows users to add, search, and sort user records in a clean and responsive dashboard interface.
+## Getting Started
 
+First, run the development server:
 
-## 📂 GitHub Repository
-
-[https://github.com/yourusername/user-management](https://github.com/papahum/User-Management-Interface)
-
----
-
-# 📌 Features
-
-✔ Add new users using a form
-✔ Form validation (required fields & email validation)
-✔ Search users by **Name** or **Email**
-✔ Sorting functionality
-
-* Name ↑ ↓
-* Email ↑ ↓
-* Role ↑ ↓
-* Created Date ↑ ↓
-
-✔ User table display
-✔ Responsive dashboard UI
-✔ Data persistence using **localStorage**
-✔ Built using reusable React components
-
----
-
-# 🛠 Tech Stack
-
-* **Next.js**
-* **TypeScript**
-* **React Hooks**
-* **Tailwind CSS**
-* **localStorage**
-
----
-
-# 📁 Project Structure
-
-src
-│
-├── app
-│   └── page.tsx
-│
-├── components
-│   ├── UserForm.tsx
-│   ├── UserTable.tsx
-│   └── SearchBar.tsx
-│
-├── types
-│   └── user.ts
-
----
-
-# ⚙️ Installation
-
-Clone the repository:
-
-git clone https://github.com/yourusername/user-management.git
-
-Go to the project directory:
-
-cd user-management
-
-Install dependencies:
-
-npm install
-
-Run the development server:
-
+```bash
 npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-Open in browser:
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-http://localhost:3000
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
----
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-# 🎨 UI Features
+## Learn More
 
-* Clean dashboard layout
-* Responsive design
-* Modern color theme
-* Card-based UI
-* Interactive table sorting
+To learn more about Next.js, take a look at the following resources:
 
----
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-# 📊 Sorting Functionality
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-Users can click table headers to sort data:
+## Deploy on Vercel
 
-Name ↑ ↓
-Email ↑ ↓
-Role ↑ ↓
-Created Date ↑ ↓
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
----
-
-# 💾 Data Persistence
-
-The project uses **localStorage** to store users data.
-
-This ensures:
-
-* Users remain saved after page refresh
-* No backend required
-
----
-
-# 📱 Responsive Design
-
-The UI is fully responsive and works on:
-
-* Desktop
-* Tablet
-* Mobile devices
-
----
-
-# 🧑‍💻 Author
-
-Shubham Yadav
-
-Frontend Developer
-
----
-
-# ⭐ Future Improvements
-
-* Edit user feature
-* Delete user option
-* Pagination
-* Backend API integration
-* Authentication system
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
