@@ -8,7 +8,7 @@ interface Props{
 export default function UserTable({users,handleSort}:Props){
 
  return(
-
+<div className="w-full overflow-x-auto">
  <table className="w-full text-[#DAF1DE] font-semibold">
 
 <thead className="bg-[#163832] text-[#DAF1DE]">
@@ -64,6 +64,7 @@ Created ↑↓
 </tbody>
 
 </table>
+</div>
  )
 
 }
